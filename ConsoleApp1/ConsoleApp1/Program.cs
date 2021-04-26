@@ -8,7 +8,8 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             IClass test = new Class1();
-            test.TestMethod();            
+            test.TestMethod();
+            test.TestMethod2();
         }
     }
 }

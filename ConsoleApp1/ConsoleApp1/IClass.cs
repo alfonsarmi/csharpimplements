@@ -7,5 +7,10 @@ namespace ConsoleApp1
     public interface IClass
     {
         public void TestMethod();
+
+        public void TestMethod2()
+        {
+            System.Console.WriteLine("Hello");
+        }
     }
 }
